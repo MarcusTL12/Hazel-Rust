@@ -17,10 +17,14 @@ pub fn init_logging() {
     .unwrap();
 }
 
-pub fn hello_hazel() {
+pub fn log_test() {
     error!("Error Hazel!!");
     warn!("Warn Hazel!!");
     info!("Info Hazel!!");
     debug!("Debug Hazel!!");
     trace!("Trace Hazel!!");
+}
+
+pub fn hei() {
+    println!("hei");
 }
