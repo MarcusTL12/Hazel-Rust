@@ -24,7 +24,3 @@ pub fn log_test() {
     debug!("Debug Hazel!!");
     trace!("Trace Hazel!!");
 }
-
-pub fn hei() {
-    println!("hei");
-}
